@@ -6,7 +6,7 @@
  * reads directly from this single configuration object.
  */
 
-export const XTINS_DOWNLOAD_URL = "REPLACE_WITH_OFFICIAL_DOWNLOAD_URL";
+export const XTINS_DOWNLOAD_URL = "https://github.com/scool7238-sys/nexora-xtins/releases/download/v2.0.0/NEXORA.XTINS_2.0.0_x64-setup.exe";
 
 export interface SiteConfig {
   productName: string;
