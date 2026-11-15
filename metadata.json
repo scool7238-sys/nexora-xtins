@@ -1,0 +1,6 @@
+{
+  "name": "NEXORA XTINS",
+  "description": "Download NEXORA XTINS, a modern Windows desktop browser built around privacy, control, and customization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
