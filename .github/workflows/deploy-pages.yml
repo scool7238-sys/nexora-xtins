@@ -34,12 +34,16 @@ jobs:
 
       - name: Type-check
         run: npm run lint
-
       - name: Build website
         run: npm run build
 
+      - name: Copy installer into Pages artifact
+        run: |
+          mkdir -p dist/downloads
+          cp downloads/NEXORA.XTINS_2.0.0_x64-setup.exe dist/downloads/NEXORA.XTINS_2.0.0_x64-setup.exe
+
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+             uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
