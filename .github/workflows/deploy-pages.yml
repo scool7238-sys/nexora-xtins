@@ -1,4 +1,4 @@
-nname: Deploy NEXORA XTINS website to GitHub Pages
+﻿name: Deploy NEXORA XTINS website to GitHub Pages
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
       - name: Copy installer into Pages artifact
         run: |
           mkdir -p dist/downloads
-          cp "downloads/NEXORA.XTINS_2.0.0_x64-setup.exe" "dist/downloads/NEXORA.XTINS_2.0.0_x64-setup.exe"
+          cp downloads/NEXORA.XTINS_2.0.0_x64-setup.exe dist/downloads/NEXORA.XTINS_2.0.0_x64-setup.exe
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
