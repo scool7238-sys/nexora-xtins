@@ -58,7 +58,7 @@ export function Footer() {
             <a href="#features" className="transition-colors hover:text-white whitespace-nowrap">
               Features
             </a>
-            <a href="#privacy" className="transition-colors hover:text-white whitespace-nowrap">
+            <a href="./privacy.html" className="transition-colors hover:text-white whitespace-nowrap">
               Privacy
             </a>
             <a

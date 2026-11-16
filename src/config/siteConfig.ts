@@ -32,7 +32,7 @@ export const SITE_CONFIG: SiteConfig = {
   githubUrl: "REPLACE_WITH_GITHUB_URL",
   contactUrl: "REPLACE_WITH_CONTACT_URL",
   termsUrl: "REPLACE_WITH_TERMS_URL",
-  privacyUrl: "#privacy",
+  privacyUrl: "./privacy.html",
 
   // Replace with official licensing / pricing details when finalized
   pricingAnswer:

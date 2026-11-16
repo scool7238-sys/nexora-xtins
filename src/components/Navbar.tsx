@@ -6,7 +6,7 @@ import { DownloadButton } from './DownloadButton';
 const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'Features', href: '#features' },
-  { label: 'Privacy', href: '#privacy' },
+  { label: 'Privacy Policy', href: './privacy.html' },
   { label: 'Experience', href: '#experience' },
   { label: 'Download', href: '#download' },
 ];
